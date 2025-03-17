@@ -69,7 +69,6 @@ pygments = "==2.19.1"
 python-dateutil = "==2.9.0.post0"
 python-dotenv = "==1.0.1"
 pytz = "==2025.1"
-pywin32 = "==310"
 pyyaml = "==6.0.2"
 pyzmq = "==26.3.0"
 referencing = "==0.36.2"
@@ -98,6 +97,8 @@ langchain = "*"
 pydantic = "*"
 langchain-community = "*"
 langchain-ollama = "*"
+unstructured = "*"
+tabulate = "*"
 
 [dev-packages]
 
