@@ -1,3 +1,7 @@
-langchain-env
 .env
 .venv
+__pycache__/
+*.py[cod]
+*$py.class
+projects/*/downloaded_pdf/*.pdf
+.DS_Store
