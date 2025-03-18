@@ -350,7 +350,7 @@ async def summarize_chunk_wrapper(chunk, chunk_id, total_chunks):
             logger.error(error_msg)
             return f"Error in chunk {chunk_id}: Request timed out after 30 minutes. Consider increasing the timeout or reducing chunk size."
             
-        except httpx.ConnectionError as ce:
+        except httpx.ConnectError as ce:
             error_msg = f"Connection error for chunk {chunk_id}: {str(ce)}"
             logger.error(error_msg)
             return f"Error in chunk {chunk_id}: Could not connect to Ollama API. Check if Ollama is running correctly."

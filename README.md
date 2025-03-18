@@ -40,8 +40,29 @@ pipenv shell
 ```
 
 ## Projects
+### 1. PDF Processor
 
-(This section will be updated as I develop projects during my learning journey)
+A full-stack application to process and summarize academic papers using LLMs.
+
+- **Features**:
+    - Downloads PDF files from arXiv links
+    - Extracts text content from PDFs
+    - Processes large documents in parallel chunks
+    - Generates comprehensive summaries focused on technical details
+    - Streamlit-based user interface with status feedback
+
+- **Tech Stack**:
+    - FastAPI backend
+    - Streamlit frontend
+    - PyMuPDF for PDF text extraction
+    - Ollama with Gemma 3 model for inference
+    - Asyncio for parallel processing
+
+- **Running the Project**:
+    ```bash
+    cd projects/langchain_pdf_processor
+    ./run.sh
+    ```
 
 ## Resources
 
