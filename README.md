@@ -13,14 +13,15 @@ This repository contains my journey and projects related to learning Langchain -
 
 ## Introduction
 
-Langchain is a powerful framework that simplifies the integration of large language models (LLMs) into applications. This repository documents my learning process, experiments, and projects built using Langchain.
+Langchain is a powerful framework that simplifies the integration of large language models (LLMs) into applications. This repository documents my learning process, experiments, and projects built using Langchain. The projects primarily use local models from Ollama for inference, allowing for privacy-focused and cost-effective LLM applications.
 
 ## Getting Started
 
 ### Prerequisites
 
-- Python 3.8+
+- Python 3.13+
 - pipenv
+- Ollama (for local model inference)
 
 ### Installation
 
@@ -34,6 +35,8 @@ pipenv install
 
 # Activate the pipenv environment
 pipenv shell
+
+# Make sure Ollama is installed and running for local model inference
 ```
 
 ## Projects
@@ -45,6 +48,7 @@ pipenv shell
 - [Langchain Documentation](https://python.langchain.com/docs/get_started/introduction)
 - [Langchain GitHub Repository](https://github.com/hwchase17/langchain)
 - [LLM Tutorials and Examples](https://www.pinecone.io/learn/series/langchain/)
+- [Ollama - Run LLMs locally](https://ollama.com/)
 
 ## Contributing
 
